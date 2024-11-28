@@ -1,0 +1,40 @@
+.weather-card {
+    background: #4ca1af;
+    color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .weather-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .temperature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .temperature h3 {
+    font-size: 2.5rem;
+    margin-right: 10px;
+  }
+  
+  .details {
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  .details p {
+    margin: 5px 0;
+  }
+  
