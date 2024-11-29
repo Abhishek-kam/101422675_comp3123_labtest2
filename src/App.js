@@ -24,10 +24,10 @@ function App() {
 
   return (
     <div className="app-container">
-      <div className="header">
-        <h1>Weather Finder</h1>
-        <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="OpenWeather Logo" className="logo" />
-      </div>
+      <header className="header">
+        <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="Weather App Logo" className="logo" />
+      </header>
+      <h1>Weather Finder</h1>
       <div className="search-container">
         <input
           type="text"
